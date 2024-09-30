@@ -1,0 +1,9 @@
+# Enforce LF line endings in text files (used by macOS/Linux)
+* text=auto
+
+# Treat all Java source files as text
+*.java text
+
+# Ensure consistent behavior across platforms
+*.sh text eol=lf
+*.bat text eol=crlf
